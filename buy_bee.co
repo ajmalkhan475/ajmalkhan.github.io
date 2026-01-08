@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>buy_bee.co - AirPods & Makeup Kits</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: #ffdd57;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #fff;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+    .banner {
+      text-align: center;
+      padding: 50px 20px;
+      background: url('https://images.unsplash.com/photo-1612520768938-758a07a3c3fc?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
+      color: #fff;
+    }
+    .banner h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .banner p {
+      font-size: 1.2rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 50px 20px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+    }
+    .product-card p {
+      margin: 0 0 15px;
+      font-weight: bold;
+    }
+    .buy-btn {
+      display: inline-block;
+      background: #ffdd57;
+      color: #333;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .buy-btn:hover {
+      background: #ffc107;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    @media(max-width: 768px){
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>buy_bee.co</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="banner" id="home">
+  <h1>Quality AirPods & Makeup Kits</h1>
+  <p>Shop the latest products with easy payment options!</p>
+</section>
+
+<section class="products" id="products">
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1591012911201-92d30f9b5b0b?auto=format&fit=crop&w=500&q=80" alt="AirPods">
+    <h3>AirPods</h3>
+    <p>PKR 25,000</p>
+    <a class="buy-btn" href="#contact">Buy Now</a>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1589987600856-1e4e1e10a69b?auto=format&fit=crop&w=500&q=80" alt="Makeup Kit">
+    <h3>Makeup Kit</h3>
+    <p>PKR 5,000</p>
+    <a class="buy-btn" href="#contact">Buy Now</a>
+  </div>
+</section>
+
+<section id="about" style="padding:50px 20px; text-align:center;">
+  <h2>About buy_bee.co</h2>
+  <p>We provide high-quality AirPods and makeup kits with secure and easy payment options via JazzCash and EasyPaisa. Shop with confidence and enjoy fast delivery!</p>
+</section>
+
+<section id="contact" style="padding:50px 20px; text-align:center;">
+  <h2>Contact & Payment</h2>
+  <p>To place an order, send us a message on WhatsApp or email:</p>
+  <p><strong>WhatsApp:</strong> +92 300 1234567</p>
+  <p><strong>Email:</strong> info@buy_bee.co</p>
+  <p>Payments via:</p>
+  <ul style="list-style:none; padding:0;">
+    <li>JazzCash: 0300-XXXXXXX</li>
+    <li>EasyPaisa: 0312-XXXXXXX</li>
+  </ul>
+</section>
+
+<footer>
+  &copy; 2026 buy_bee.co | All Rights Reserved
+</footer>
+
+</body>
+</html>
